@@ -1,0 +1,28 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Angular"
+    },
+    {
+      "nome": "Java",
+      "id": 2
+    },
+    {
+      "nome": "Aluno 01",
+      "id": 3
+    },
+    {
+      "nome": "Angular Material",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "nome": "Material 2"
+    },
+    {
+      "id": 7,
+      "nome": "PHP"
+    }
+  ]
+}

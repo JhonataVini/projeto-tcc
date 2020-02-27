@@ -1,0 +1,23 @@
+<div style="margin-top: 2em;">
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="customFile" (change)="onChange($event)" multiple>
+    <label class="custom-file-label" for="customFile" id="customFileLabel">Selecionar Arquivo</label>
+  </div>
+</div>
+<div class="progress" *ngIf="progress != 100 && progress != 0" style="margin-top: 1em;">
+  <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" aria-valuenow="75"
+    aria-valuemin="0" aria-valuemax="100" style="width: 0" [style.width]="progress + '%'">
+    {{ progress }}%</div>
+</div>
+<p *ngIf="progress == 100" style="font-style: italic; color: green; font-size: 1em;">
+  Upload feito com sucesso</p>
+<div style="margin-top: 2em;">
+  <button type="button" class="btn btn-outline-info" (click)="onUpload()" [disabled]="!files || progress == 100">
+    Salvar arquivo</button>
+</div>
+<div style="margin-top: 2em;">
+  <button type="button" class="btn btn-outline-info" (click)="onDownloadExcel()" >
+    Download Excel</button>
+  <button type="button" class="btn btn-outline-info" (click)="onDownloadPdf()" >
+    Download PDF</button>
+</div>

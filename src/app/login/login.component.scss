@@ -1,0 +1,67 @@
+/* fundo dos campos */
+
+.container {
+  position: static;
+  align-items: center;
+  padding: 10%;
+  margin-top: 20%;
+}
+form-horizontal{
+
+background: rgba(255, 255, 255, 0.7);
+border-radius: 50px;
+}
+
+/* campo de e-mail */
+
+input{
+  bottom: 2em;
+background: rgba(255, 255, 255, 0.7);
+border-radius: 50px;
+}
+.form-check {
+padding-left: 5em;
+color: rgba(0, 0, 0, 0.4);
+  align-items: center;
+}
+/* campo de senha */
+
+input.type.password{
+position: absolute;
+width: 684px;
+height: 63px;
+left: 361px;
+top: 371px;
+
+background: rgba(255, 255, 255, 0.7);
+border-radius: 50px;
+
+}
+/* lembre de mim */
+
+label{
+
+font-family: SirinStencil;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5em;
+line-height: 44px;
+
+color: rgba(0, 0, 0, 0.4);
+
+}
+
+/* Entrar */
+
+a.btn{
+
+font-family: SirinStencil;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: auto;
+
+background: rgba(0, 106, 166, 0.7);
+color: white;
+border-radius: 50px;
+}

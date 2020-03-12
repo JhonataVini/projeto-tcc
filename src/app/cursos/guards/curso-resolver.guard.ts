@@ -22,7 +22,7 @@ constructor( private service: CursosService) {
     return of({
       id: null,
       nome: null
-    })
+    });
   }
 
 }

@@ -18,7 +18,7 @@ export class AuthService {
 
     this.usuarioAuth = true;
     this.mostrarMenuEmitter.emit(true);
-    this.router.navigate(['/home']);
+    this.router.navigate(['/busca-reativa']);
   } else {
       this.usuarioAuth = false;
       this.mostrarMenuEmitter.emit(false);

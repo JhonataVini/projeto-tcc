@@ -5,7 +5,7 @@ import { ActivatedRouteSnapshot, RouterStateSnapshot, Router, CanActivate, CanDe
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styles: []
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
 
